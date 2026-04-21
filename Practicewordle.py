@@ -12,8 +12,9 @@ for i in range(6):
     # Guess a word
     guess_word = input()
     output = ""
-    if len(guess_word)<=4
-    print("")
+    if len(guess_word)<=4:
+        print("Your guess has to be 5 letters!!!!!!!")
+
     # First letter (in python, counting starts at 0 not 1)
     if guess_word[0] == hidden_word[0]:
         output += "🟩"
